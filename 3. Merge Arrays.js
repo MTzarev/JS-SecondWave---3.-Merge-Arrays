@@ -8,10 +8,8 @@ function mergeArrays(arr1, arr2) {
         } else {
             newArr.push(num1.concat(num2));
         }
-
     }
     console.log(newArr.join(` - `));
-
 }
 mergeArrays(['5', '15', '23', '56', '35'],
     ['17', '22', '87', '36', '11']);
